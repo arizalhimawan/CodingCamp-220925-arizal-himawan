@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Profile - TechSolutions</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+    <!-- Header & Navigation -->
+    <header class="bg-white shadow-md">
+        <nav class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="text-xl font-bold text-blue-600">TechSolutions</div>
+            <ul class="hidden md:flex space-x-6">
+                <li><a href="home.html" class="hover:text-blue-600 transition">Home</a></li>
+                <li><a href="profile.html" class="text-blue-600 font-semibold">Our Profile</a></li>
+                <li><a href="#visi-misi" class="hover:text-blue-600 transition">Vision & Mission</a></li>
+                <li><a href="#values" class="hover:text-blue-600 transition">Company Values</a></li>
+            </ul>
+            <div class="md:hidden">
+                <button id="mobile-menu-button" class="text-gray-600 hover:text-blue-600">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                    </svg>
+                </button>
+            </div>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white py-2 px-4 shadow-lg">
+            <a href="home.html" class="block py-2 hover:text-blue-600">Home</a>
+            <a href="profile.html" class="block py-2 text-blue-600 font-semibold">Our Profile</a>
+            <a href="#visi-misi" class="block py-2 hover:text-blue-600">Vision & Mission</a>
+            <a href="#values" class="block py-2 hover:text-blue-600">Company Values</a>
+        </div>
+    </header>
+
+    <!-- Profile Banner -->
+    <section class="bg-blue-600 text-white py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl font-bold mb-4">Profil Perusahaan</h1>
+            <p class="text-xl">Mengenal lebih dekat TechSolutions dan nilai-nilai yang kami anut</p>
+        </div>
+    </section>
+
+    <!-- About Company -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row items-center mb-16">
+                <div class="md:w-1/2 mb-8 md:mb-0 md:pr-8">
+                    <img src="photo/photo-2.png" alt="Kantor TechSolutions" class="rounded-lg shadow-md w-full">
+                </div>
+                <div class="md:w-1/2">
+                    <h2 class="text-3xl font-bold mb-6">Tentang TechSolutions</h2>
+                    <p class="mb-4">TechSolutions didirikan pada tahun 2025 dengan visi untuk mentransformasi bisnis melalui solusi teknologi inovatif. Selama lebih dari satu dekade, kami telah membantu perusahaan dari berbagai skala dan industri mengadopsi teknologi yang tepat untuk meningkatkan efisiensi, produktivitas, dan pertumbuhan bisnis.</p>
+                    <p class="mb-4">Dengan tim yang terdiri dari para ahli di bidangnya, kami memiliki komitmen untuk memberikan layanan terbaik dan solusi yang sesuai dengan kebutuhan spesifik setiap klien.</p>
+                    <div class="bg-blue-50 p-4 rounded-lg">
+                        <p class="text-blue-800 font-semibold">"Teknologi bukanlah tentang kode dan perangkat keras, tetapi tentang memecahkan masalah nyata dan menciptakan nilai bagi bisnis."</p>
+                        <p class="text-blue-600 mt-2">- CEO TechSolutions</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Visi & Misi -->
+            <div id="visi-misi" class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div>
+                    <h3 class="text-2xl font-semibold mb-4 text-blue-600">Visi</h3>
+                    <p class="text-lg">Menjadi mitra teknologi terdepan yang mendorong transformasi digital dan inovasi berkelanjutan untuk menciptakan masa depan bisnis yang lebih efisien dan connected.</p>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-semibold mb-4 text-blue-600">Misi</h3>
+                    <ul class="list-disc list-inside space-y-2 text-lg">
+                        <li>Menyediakan solusi teknologi yang sesuai dengan kebutuhan dan anggaran klien</li>
+                        <li>Membangun kemitraan jangka panjang berdasarkan kepercayaan dan hasil yang terukur</li>
+                        <li>Terus berinovasi dan mengikuti perkembangan teknologi terbaru</li>
+                        <li>Memberikan layanan pendukung yang responsif dan profesional</li>
+                        <li>Berkontribusi pada pengembangan ekosistem teknologi di Indonesia</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values -->
+    <section id="values" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Nilai-Nilai Perusahaan</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="text-blue-600 mb-4 mx-auto w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Integritas</h3>
+                    <p>Kami selalu menjunjung tinggi kejujuran, transparansi, dan etika profesional dalam setiap interaksi dengan klien dan mitra.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="text-blue-600 mb-4 mx-auto w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Inovasi</h3>
+                    <p>Kami terus mencari cara baru dan lebih baik untuk menyelesaikan tantangan bisnis melalui pendekatan teknologi yang kreatif.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="text-blue-600 mb-4 mx-auto w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Kolaborasi</h3>
+                    <p>Kami bekerja sama dengan klien sebagai mitra strategis, mendengarkan kebutuhan mereka dan melibatkan mereka dalam proses pengembangan.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <div class="text-blue-600 mb-4 mx-auto w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Keberlanjutan</h3>
+                    <p>Kami berkomitmen untuk menciptakan solusi yang tidak hanya efektif hari ini, tetapi juga berkelanjutan dan mudah dirawat di masa depan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Tim Kami</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <img src="photo/photo-3.jpg" alt="CEO TechSolutions" class="w-48 h-48 rounded-full mx-auto mb-4 object-cover shadow-md">
+                    <h3 class="text-xl font-semibold">Ahmad Rizky</h3>
+                    <p class="text-blue-600">CEO & Founder</p>
+                    <p class="mt-2">Pemimpin visioner dengan pengalaman 15+ tahun di industri teknologi.</p>
+                </div>
+                <div class="text-center">
+                    <img src="photo/photo-4.jpeg" alt="CTO TechSolutions" class="w-48 h-48 rounded-full mx-auto mb-4 object-cover shadow-md">
+                    <h3 class="text-xl font-semibold">Diana Putri</h3>
+                    <p class="text-blue-600">Chief Technology Officer</p>
+                    <p class="mt-2">Ahli teknologi dengan spesialisasi dalam arsitektur cloud dan keamanan siber.</p>
+                </div>
+                <div class="text-center">
+                    <img src="photo/photo-5.jpg" alt="Head of Development TechSolutions" class="w-48 h-48 rounded-full mx-auto mb-4 object-cover shadow-md">
+                    <h3 class="text-xl font-semibold">Budi Santoso</h3>
+                    <p class="text-blue-600">Head of Development</p>
+                    <p class="mt-2">Memimpin tim pengembang dengan fokus pada kualitas kode dan inovasi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between">
+                <div class="mb-6 md:mb-0">
+                    <h3 class="text-xl font-bold mb-4">Tech Solutions</h3>
+                    <p>Solusi teknologi inovatif untuk bisnis masa depan</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Kontak Kami</h4>
+                    <p>Email: info@techsolutions.com</p>
+                    <p>Telepon: (021) 1234-5678</p>
+                    <p>Alamat: Jl. Teknologi No. 123, Jakarta</p>
+                </div>
+            </div>
+            <div class="mt-8 pt-6 border-t border-gray-700 text-center">
+                <p>&copy; 2025 Tech Solutions. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/sript.js"></script>
+</body>
+</html>
